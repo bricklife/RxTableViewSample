@@ -17,6 +17,7 @@
 		CBD2E51D1C06E35400CB05AA /* CellIdentifierTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2E51A1C06E35400CB05AA /* CellIdentifierTableViewController.swift */; };
 		CBD2E51E1C06E35400CB05AA /* DataSourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2E51B1C06E35400CB05AA /* DataSourceTableViewController.swift */; };
 		CBD2E5201C06F0C100CB05AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2E51F1C06F0C100CB05AA /* ViewController.swift */; };
+		CBD2E5221C06F4CD00CB05AA /* MultipleSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2E5211C06F4CD00CB05AA /* MultipleSectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		CBD2E51A1C06E35400CB05AA /* CellIdentifierTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellIdentifierTableViewController.swift; sourceTree = "<group>"; };
 		CBD2E51B1C06E35400CB05AA /* DataSourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceTableViewController.swift; sourceTree = "<group>"; };
 		CBD2E51F1C06F0C100CB05AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBD2E5211C06F4CD00CB05AA /* MultipleSectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				CBD2E51A1C06E35400CB05AA /* CellIdentifierTableViewController.swift */,
 				CBD2E5191C06E35400CB05AA /* CellFactoryTableViewController.swift */,
 				CBD2E51B1C06E35400CB05AA /* DataSourceTableViewController.swift */,
+				CBD2E5211C06F4CD00CB05AA /* MultipleSectionTableViewController.swift */,
 				CBD2E51F1C06F0C100CB05AA /* ViewController.swift */,
 				CBD2E4E41C06E23400CB05AA /* Assets.xcassets */,
 				CBD2E4E61C06E23400CB05AA /* LaunchScreen.storyboard */,
@@ -349,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD2E5221C06F4CD00CB05AA /* MultipleSectionTableViewController.swift in Sources */,
 				CBD2E5201C06F0C100CB05AA /* ViewController.swift in Sources */,
 				CBD2E51E1C06E35400CB05AA /* DataSourceTableViewController.swift in Sources */,
 				CBD2E51C1C06E35400CB05AA /* CellFactoryTableViewController.swift in Sources */,
