@@ -26,9 +26,7 @@ class CellFactoryTableViewController: UITableViewController {
         tableView.dataSource = nil
         
         items.bindTo(tableView.rx_itemsWithCellFactory) { (tableView, i, object) in
-            let indexPath = NSIndexPath(forRow: i, inSection: 0)
-            
-            let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+            let cell = tableView.dequeueReusableCellWithIdentifier("Cell")!
             
             cell.textLabel?.text = object.description
             
