@@ -14,7 +14,7 @@ class DataSourceTableViewController: UITableViewController {
     
     let items = Variable<[AnyObject]>([])
 
-    let dataSource = DataSource()
+    let dataSource = ArrayDataSource()
     
     let disposeBag = DisposeBag()
     
@@ -38,7 +38,7 @@ class DataSourceTableViewController: UITableViewController {
 }
 
 
-class DataSource: NSObject, RxTableViewDataSourceType, UITableViewDataSource {
+class ArrayDataSource: NSObject, RxTableViewDataSourceType, UITableViewDataSource {
     
     typealias Element = [AnyObject]
     
