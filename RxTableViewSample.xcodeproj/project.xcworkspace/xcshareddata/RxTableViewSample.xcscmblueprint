@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FAD1CE5E3338828DE9BA9DA19AE41B3B0282AB34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FAD1CE5E3338828DE9BA9DA19AE41B3B0282AB34" : 0,
+    "8B123162C394A0A0A138779108E4C59DD771865A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2C10035C-AFB3-4058-877B-A54102622653",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FAD1CE5E3338828DE9BA9DA19AE41B3B0282AB34" : "RxTableViewSample\/",
+    "8B123162C394A0A0A138779108E4C59DD771865A" : "RxTableViewSample\/Carthage\/Checkouts\/RxSwift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RxTableViewSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RxTableViewSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveX\/RxSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B123162C394A0A0A138779108E4C59DD771865A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bricklife\/RxTableViewSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FAD1CE5E3338828DE9BA9DA19AE41B3B0282AB34"
+    }
+  ]
+}
