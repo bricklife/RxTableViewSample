@@ -25,7 +25,7 @@ class CellIdentifierTableViewController: UITableViewController {
     func bind() {
         tableView.dataSource = nil
         
-        items.bindTo(tableView.rx_itemsWithCellIdentifier("Cell")) { (_, object, cell) in
+        items.asObservable().bindTo(tableView.rx_itemsWithCellIdentifier("Cell", cellType: UITableViewCell.self)) { (_, object, cell) in
             cell.textLabel?.text = object.description
             }
             .addDisposableTo(disposeBag)

@@ -30,7 +30,7 @@ class MultipleSectionTableViewController: UITableViewController {
     func bind() {
         tableView.dataSource = nil
         
-        items.bindTo(tableView.rx_itemsWithDataSource(dataSource))
+        items.asObservable().bindTo(tableView.rx_itemsWithDataSource(dataSource))
             .addDisposableTo(disposeBag)
     }
 }
